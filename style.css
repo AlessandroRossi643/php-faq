@@ -1,0 +1,65 @@
+body{
+  font-family: "product sans","open sans",arial,sans-serif;
+}
+.coloreScritte{
+  color: #5f6368;
+}
+.dimensioneTestoPrincipale{
+  font-size: 22px;
+  font-weight: 500;
+}
+.dimensioneTestoFaq{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+.header{
+  max-width: 95%;
+  height: 100px;
+  margin: 0 auto;
+}
+.header_section{
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+.header_bar{
+  height: 30%;
+}
+.header_section *, .header_bar *{
+  cursor: pointer;
+}
+.header_section .nomeSezione{
+  margin-left: 10px;
+}
+.header_list{
+  float: left;
+}
+.header_list ul{
+  list-style-type: none;
+  padding: 0;
+}
+.header_list ul li{
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.header_account{
+  float: right;
+}
+.header_account span{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.container{
+  max-width: 100%;
+  border-top: 1px solid rgba(151,151,151,0.5);
+}
+.containerFaq{
+  max-width: 90%;
+  height: 500px;
+}
