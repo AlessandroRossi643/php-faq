@@ -8,13 +8,15 @@ header{
   border-bottom: 1px solid rgba(151,151,151,0.5);
   height: 100px;
   background-color: white;
-  z-index: 2;
+  z-index: 1;
 }
 footer{
   width: 100%;
-  height: 80px;
-  position: relative;
+  height: 50px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
 }
+
 .coloreScritte{
   color: #5f6368;
 }
@@ -74,11 +76,12 @@ footer{
   max-width: 100%;
   position: relative;
   top: 100px;
-  height: 500px;
+  padding: 0;
 }
 .containerFaq{
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
+  padding: 20px 0;
 }
 .containerFaq .domanda{
   font-weight: 700;
@@ -96,6 +99,34 @@ footer{
 
 
 .footerContainer{
-  max-width: 70%;
-  background: black;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 50px;
+}
+.footer_left{
+  float: left;
+  width: 50%;
+}
+.footer_left a{
+  font-size: 11px;
+}
+.footer_left a:visited, .footer_left a:link{
+  color:rgba(61,61,61,0.8);
+}
+.footer_left a[href]::after{
+  content: "•";
+  padding: 0 5px;
+}
+.footer_left a:last-child::after{
+  content: none;
+}
+
+.footer_right{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.footer_right #language{
+  border-color: rgb(169, 169, 169);
+  width: 40%;
 }

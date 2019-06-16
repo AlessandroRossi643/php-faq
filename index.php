@@ -76,12 +76,23 @@
         }
         ?>
       </div>
+      <footer>
+        <div class="footerContainer">
+          <div class="footer_left">
+            <a href="#">Google</a>
+            <a href="#">Tutto su Google</a>
+            <a href="#">Privacy</a>
+            <a href="#">Termini</a>
+          </div>
+          <div class="footer_right">
+            <select id="language">
+              <option>Italiano</option>
+              <option>English</option>
+              <option>Espanol</option>
+            </select>
+          </div>
+        </div>
+      </footer>
     </div>
-
-    <footer>
-      <div class="footerContainer">
-
-      </div>
-    </footer>
   </body>
 </html>
