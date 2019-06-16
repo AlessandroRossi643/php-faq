@@ -27,11 +27,11 @@
         <div class="header_bar">
           <div class="header_list">
             <ul>
-              <li>Introduzione</li>
-              <li>Norme sulla privacy</li>
-              <li>Termini di servizio</li>
-              <li>Tecnologie</li>
-              <li>Domande frequenti</li>
+              <li data-scheda="0">Introduzione</li>
+              <li data-scheda="1">Norme sulla privacy</li>
+              <li data-scheda="2">Termini di servizio</li>
+              <li data-scheda="3">Tecnologie</li>
+              <li class="textaperto" data-scheda="4">Domande frequenti</li>
             </ul>
           </div>
           <div class="header_account">
@@ -42,7 +42,7 @@
     </header>
 
     <div class="container">
-      <div class="containerFaq">
+      <div class="containerFaq" data-scheda="4">
 
         <?php
         $arrayFaq=[
@@ -94,5 +94,6 @@
         </div>
       </footer>
     </div>
+    <script src="script.js" charset="utf-8"></script>
   </body>
 </html>

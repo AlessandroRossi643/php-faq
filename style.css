@@ -16,10 +16,15 @@ footer{
   background-color: #f5f5f5;
   border-top: 1px solid #eee;
 }
-
 .coloreScritte{
   color: #5f6368;
 }
+.textaperto{
+  color: #3367d6;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #3367d6;
+}
+
 .dimensioneTestoPrincipale{
   font-size: 22px;
   font-weight: 500;
