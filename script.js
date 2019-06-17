@@ -8,6 +8,6 @@ $(document).ready(function(){
   });
 
   $('.header_list ul li[data-scheda=4]').click(function(){
-      $('.containerFaq').show();
+      $('.container').children().show();
   });
 });
